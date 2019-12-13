@@ -54,14 +54,18 @@ function getString() {
        string += possOpt[rando]
     }
 //  use randomNumber fx to get a random value, which will be used as the index of the possOpt array
-    alert(string)
+   
+    // alert(string)
+   
+    var password = document.getElementById("pass");
+    password.textContent = string;
+    pass.appendChild(password)
 
-};
 // fx for returning a random number between 0 and number of possible options
 function randomNumber() {
     return Math.floor(Math.random() * possOpt.length)
 };
 
 
-
+}
 confirms();
