@@ -10,6 +10,7 @@ var uA;
 var num; 
 var sC;
 var possOpt = [];
+var passLength = prompt("How many characters would you like your password to have?")
 
 // confirms and optionBuilder
 function confirms(){
@@ -48,7 +49,7 @@ function getString() {
     // assign a local variable to empty string
     var string = "";
     // for loop and concatenate random character to the local variable
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < passLength ; i++) {
        var rando = randomNumber();
        string += possOpt[rando]
     }
