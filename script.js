@@ -72,21 +72,21 @@ function randomNumber() {
 
 
 }
-
+// refreshes page on btn click
 function refreshPage(){
     location.reload();
 }
 
 
-const pass = document.getElementById("pass");
-const copy = document.getElementsByClassName("copy");
+// working copy to clipboard 
+function copyPassword() {
 
-copy.onclick = function (pass) {
-    // select text
-    pass.select();
-    // copy text
-    document.execCommand("copy")
+    document.getElementById("pass").select();
+
+    document.execCommand("Copy");
 }
+
+
 
 
 
