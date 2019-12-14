@@ -61,11 +61,35 @@ function getString() {
     password.textContent = string;
     pass.appendChild(password)
 
+
+    
+    
 // fx for returning a random number between 0 and number of possible options
 function randomNumber() {
     return Math.floor(Math.random() * possOpt.length)
 };
 
 
+
 }
+
+function refreshPage(){
+    location.reload();
+}
+
+
+const pass = document.getElementById("pass");
+const copy = document.getElementsByClassName("copy");
+
+copy.onclick = function (pass) {
+    // select text
+    pass.select();
+    // copy text
+    document.execCommand("copy")
+}
+
+
+
+
 confirms();
+

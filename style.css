@@ -24,3 +24,9 @@ body{
 .pass{
     font-size: 90px;
 }
+button{
+    padding: 10px 30px;
+    font-size: 25px;
+    margin: 30px;
+    background: #dcc2ee;
+}
