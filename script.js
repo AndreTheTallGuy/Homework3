@@ -95,7 +95,6 @@ function optionBuilder() {
     confirms();
   }
 }
-
 function getString() {
   // assign a local variable to empty string
   var string = "";
