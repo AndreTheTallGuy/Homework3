@@ -117,6 +117,7 @@ function getString() {
 function refreshPage() {
   location.reload();
 }
+
 // working copy to clipboard
 function copyPassword() {
   document.getElementById("pass").select();
