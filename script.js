@@ -113,6 +113,7 @@ function getString() {
     return Math.floor(Math.random() * possOpt.length);
   }
 }
+
 // refreshes page on btn click
 function refreshPage() {
   location.reload();
