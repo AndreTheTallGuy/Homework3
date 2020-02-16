@@ -74,7 +74,6 @@ function confirms() {
   sC = confirm("Would you like to add special characters?");
   optionBuilder();
 }
-
 // concat or redirect to confirms
 function optionBuilder() {
   if (lA || uA || num || sC) {
