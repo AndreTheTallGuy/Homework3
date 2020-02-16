@@ -122,4 +122,5 @@ function copyPassword() {
   document.getElementById("pass").select();
   document.execCommand("Copy");
 }
+
 confirms();
