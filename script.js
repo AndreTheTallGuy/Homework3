@@ -108,6 +108,7 @@ function getString() {
   var password = document.getElementById("pass");
   password.textContent = string;
   pass.appendChild(password);
+
   // fx for returning a random number between 0 and number of possible options
   function randomNumber() {
     return Math.floor(Math.random() * possOpt.length);
